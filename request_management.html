@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Unit Management</title>
+  <title>Request Management</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -38,7 +38,7 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Unit Management</h1>
+      <h1>Request Management</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -55,59 +55,36 @@
           <div class="card">
             <div class="card-body">
 
-              <h5 class="card-title"></h5>
+                <h5 class="card-title">Unit Name</h5>
 
+
+                 <!-- Horizontal Form -->
               <form>
                 <div class="row mb-3">
-                  <div class="col-md-6">
-                    <input type="text" class="form-control"></div>
-                    <div class="col-md-3">
-                    <button type="button" class="btn btn-primary">Search</button></div>
-                    <div class="col-md-3">
-                    <button type="button" class="btn btn-primary">New Request</button></div>  
-                </div>               
-              </form>
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Unit No.</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputUnit" value="12345" disabled>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Description</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputDescription" value="Description" disabled>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Date</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputDate" value="15-06-23" disabled>
+                  </div>
+                </div>
+               
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Confirm</button>
+                  <button type="reset" class="btn btn-secondary">Delete</button>
+                </div>
+              </form><!-- End Horizontal Form -->
 
-              
-
-              <!-- Default Table -->
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">S/No.</th>
-                    <th scope="col">Units</th>
-                    <th scope="col">Name Of College</th>
-
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>1242</td>
-                    <td>College A</td>
-                    
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>3545</td>
-                    <td>College B</td>
-                    
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>5333</td>
-                    <td>College C</td>
-                    
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>3534</td>
-                    <td>College D</td>
-                    
-                  </tr>
-                </tbody>
-              </table>
-              <!-- End Default Table Example -->
             </div>
           </div>
 
